@@ -11,7 +11,7 @@ const H1 = React.createElement('h1',{
 const para = React.createElement('p',{
 
     style:{
-        marginBottom:'3%'
+        marginBottom:'4%'
     }
 },'The following is a list of all the topics we cover in the MDN learning area.');
 
@@ -26,7 +26,8 @@ const para1 = React.createElement('p',{
 
     style:{
         marginLeft:'2%',
-        marginTop:'2%'
+        marginTop:'2%',
+        lineHeight:'1.5rem'
     }
 },'Provides a practical introduction to web development for complete beginners.');
 
@@ -37,7 +38,9 @@ style:{
 const para2 = React.createElement('p',{
     style:{
         marginLeft:'2%',
-        marginTop:'1.5%'
+        marginTop:'1.5%',
+        lineHeight:'1.5rem'
+
     }
 
 },'HTML is the language that we use to structure the different parts of our content and define what their meaning or purpose is. This topic teaches HTML in detail.');
@@ -48,6 +51,7 @@ const anchor3 = React.createElement('a',{href:'https://developer.mozilla.org/en-
 const para3 = React.createElement('p',{
 
     style:{
+        lineHeight:'1.5rem',
         marginLeft:'2%',
         marginTop:'1.5%'
     }
