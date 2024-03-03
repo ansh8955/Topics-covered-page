@@ -26,7 +26,7 @@ const para1 = React.createElement('p',{
 
     style:{
         marginLeft:'2%',
-        marginTop:'2%',
+        marginTop:'1.5%',
         lineHeight:'1.5rem'
     }
 },'Provides a practical introduction to web development for complete beginners.');
@@ -61,20 +61,20 @@ const Div1 = React.createElement('div',{
 
 style:{
 
-    marginBottom:'2%'
+    marginBottom:'5%'
 }
 
 },[anchor1,para1]);
 const Div2 = React.createElement('div',{
     style:{
 
-        marginBottom:'2%'
+        marginBottom:'5%'
     }
 },[anchor2,para2]);
 const Div3 = React.createElement('div',{
     style:{
 
-        marginBottom:'2%'
+        marginBottom:'5%'
     }
 },[anchor3,para3]);
 
